@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bi.machinetest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera2.full"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bi"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/bi"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MachineTestBrainInventory">
+        <activity android:name=".Activities.MainActivity2"></activity>
+        <activity android:name=".Activities.DuetActivity" />
+        <activity android:name=".Activities.GalleryActivity" />
+        <activity android:name=".Activities.RecordingActivity" />
+        <activity android:name=".Activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:parentActivityName=".Activities.MainActivity" />
+    </application>
+
+</manifest>

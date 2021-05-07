@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Video Real</string>
+    <string name="MobileNumber">Mobile Number</string>
+    <string name="Password">Password</string>
+    <string name="Forgot">Forgot password?</string>
+    <string name="Dob">Date Of Birth</string>
+    <string name="Full_Name">Full Name</string>
+    <string name="Signin">Sign In</string>
+    <string name="Signup">Sign Up</string>
+    <string name="Done">DONE</string>
+    <string name="Sign"><u>Sign Up</u></string>
+    <string name="Signn"><u>Sign In</u></string>
+    <string name="PrivacyPolicy">By continuing you indicate that you" ve read and agree to our <u>Privacy Policy</u></string>
+</resources>
