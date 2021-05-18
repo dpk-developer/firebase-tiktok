@@ -1,4 +1,4 @@
-package com.bi.machinetest;
+package com.dpk.viralist;
 
 import android.content.Context;
 

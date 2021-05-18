@@ -1,4 +1,4 @@
-package com.bi.machinetest.Utils;
+package com.dpk.viralist.Utils;
 
 import android.annotation.SuppressLint;
 import android.content.ContentUris;

@@ -1,4 +1,4 @@
-package com.bi.machinetest.Activities;
+package com.dpk.viralist.Activities;
 
 import android.Manifest;
 import android.content.Intent;
@@ -13,9 +13,9 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.bi.machinetest.Adapter.videoadapter;
-import com.bi.machinetest.R;
-import com.bi.machinetest.ViewModel.videomodel;
+import com.dpk.viralist.Adapter.videoadapter;
+import com.dpk.viralist.R;
+import com.dpk.viralist.ViewModel.videomodel;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.FirebaseDatabase;
 

@@ -1,8 +1,7 @@
-package com.bi.machinetest.Activities;
+package com.dpk.viralist.Activities;
 
 import android.content.ContentResolver;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -18,11 +17,9 @@ import android.widget.VideoView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
-import com.bi.machinetest.R;
-import com.bi.machinetest.ViewModel.Member;
+import com.dpk.viralist.R;
+import com.dpk.viralist.ViewModel.Member;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -42,7 +39,7 @@ public class RecordingActivity extends AppCompatActivity {
     private StorageReference storageReference;
     private DatabaseReference databaseReference;
     private Member member;
-    private CardView mProgress, mDuet;
+    private CardView mProgress;
     private UploadTask uploadTask;
 
     @Override
@@ -57,7 +54,6 @@ public class RecordingActivity extends AppCompatActivity {
         storageReference = FirebaseStorage.getInstance().getReference("Video");
         databaseReference = FirebaseDatabase.getInstance("https://machine-test-brain-inventory-default-rtdb.firebaseio.com/").getReference("videos");
 
-        mDuet = findViewById(R.id.cvDuet);
         mDesc = findViewById(R.id.etDesc);
         mTitle = findViewById(R.id.etTitle);
         videoView = findViewById(R.id.videoView);
@@ -70,15 +66,6 @@ public class RecordingActivity extends AppCompatActivity {
                 previewRecord();
             }
         });
-
-        mDuet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(RecordingActivity.this, MainActivity2.class));
-                finish();
-            }
-        });
-
 
         mGallery = findViewById(R.id.btnGallery);
         mGallery.setOnClickListener(new View.OnClickListener() {

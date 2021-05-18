@@ -1,4 +1,4 @@
-package com.bi.machinetest.Activities;
+package com.dpk.viralist.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.bi.machinetest.R;
+import com.dpk.viralist.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

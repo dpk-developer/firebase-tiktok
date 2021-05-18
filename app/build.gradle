@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.bi.machinetest"
+        applicationId "com.dpk.viralist"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
@@ -39,7 +39,6 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:19.1.1'
     implementation 'com.firebaseui:firebase-ui-database:6.3.0'
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
-    implementation 'com.arthenica:mobile-ffmpeg-full-gpl:4.4.LTS'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

@@ -1,4 +1,4 @@
-package com.bi.machinetest.Adapter;
+package com.dpk.viralist.Adapter;
 
 import android.media.MediaPlayer;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import android.widget.VideoView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bi.machinetest.R;
-import com.bi.machinetest.ViewModel.videomodel;
+import com.dpk.viralist.R;
+import com.dpk.viralist.ViewModel.videomodel;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 

@@ -1,4 +1,4 @@
-package com.bi.machinetest.ViewModel;
+package com.dpk.viralist.ViewModel;
 
 public class Member {
     private String desc;

@@ -1,4 +1,4 @@
-package com.bi.machinetest.Activities;
+package com.dpk.viralist.Activities;
 
 import android.content.ContentResolver;
 import android.content.Intent;
@@ -19,8 +19,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-import com.bi.machinetest.R;
-import com.bi.machinetest.ViewModel.Member;
+import com.dpk.viralist.R;
+import com.dpk.viralist.ViewModel.Member;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

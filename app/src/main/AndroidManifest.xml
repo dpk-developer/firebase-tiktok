@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bi.machinetest">
+    package="com.dpk.viralist">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -27,14 +27,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/bi"
+        android:icon="@drawable/ic_launcher_foreground"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:roundIcon="@drawable/bi"
+        android:roundIcon="@drawable/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/Theme.MachineTestBrainInventory">
-        <activity android:name=".Activities.MainActivity2"></activity>
-        <activity android:name=".Activities.DuetActivity" />
         <activity android:name=".Activities.GalleryActivity" />
         <activity android:name=".Activities.RecordingActivity" />
         <activity android:name=".Activities.SplashActivity">
